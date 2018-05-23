@@ -57,7 +57,8 @@ app.get('/', (req, res) => {
            'Gibson',
            'Fender',
            'Ibanez',
-           'Yamaha'
+           'Yamaha',
+           'EPS'
        ]
    });
 });
