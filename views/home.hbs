@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Some Website</title>
+    </head>
+    <body>
+        <h1>{{pageTitle}}</h1>
+        {{#each guitars}}
+            <div style="border-radius:5px;padding:5px;border-bottom:solid black 1pt;">{{this}}</div>
+        {{/each}}
+
+         {{> footer}}
+    </body>
+</html>
